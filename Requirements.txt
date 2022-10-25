@@ -1,0 +1,4 @@
+1. python 3.10 
+2. pygame
+3. pymunk
+4. math
