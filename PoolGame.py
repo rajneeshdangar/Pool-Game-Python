@@ -188,7 +188,7 @@ while run:
     #Check_If_All_The_Balls_Have_Stopped_Moving
     taking_shot = True
     for ball in balls:
-        if ball.body.velocity[0] != 0 or ball.body.velocity[1]:
+        if int(ball.body.velocity[0]) != 0 or int(ball.body.velocity[1]) != 0:
             taking_shot = False
 
     #Draw_Pool_Cue
